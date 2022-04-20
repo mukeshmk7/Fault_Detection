@@ -26,5 +26,5 @@ def predict():
         return render_template('predict.html', output='Fault')
 
 if __name__  ==  '__main__':
-    app.run(debug=True)
+    app.run()
 
